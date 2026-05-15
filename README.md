@@ -26,6 +26,15 @@ Key features:
 - Node.js (v16+)
 - MySQL server
 
+### Database Setup
+
+1.  **Import the Database Schema & Data**:
+    *   Open your terminal or MySQL client.
+    *   Navigate to the project's root directory.
+    *   Run the following command to import the database structure and sample data from the provided dump file:
+    ```bash
+    mysql -u root -p new_schema > dump.sql
+
 ### Installation
 
 1. Clone the repository:
